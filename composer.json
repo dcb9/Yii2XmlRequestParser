@@ -1,5 +1,5 @@
 {
-  "name": "yii2-xml-request-parser",
+  "name": "bobchengbin/yii2-xml-request-parser",
     "description": "Yii2 xml request parser",
     "keywords": ["yii2", "xml", "parser", "request"],
     "homepage": "https://github.com/bobchengbin/Yii2XmlRequestParser",
