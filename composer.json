@@ -1,0 +1,32 @@
+{
+  "name": "Yii2XmlRequestParser",
+    "description": "Yii2 xml request parser",
+    "keywords": ["yii2", "xml", "parser", "request"],
+    "homepage": "https://github.com/bobchengbin/Yii2XmlRequestParser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+    {
+      "name": "Bob Chengbin",
+      "email": "bob@phpor.me",
+      "homepage": "http://blog.phpor.me",
+      "role": "Creator"
+    }
+  ],
+    "support": {
+      "issues": "https://github.com/bobchengbin/Yii2XmlRequestParser/issues",
+      "source": "https://github.com/bobchengbin/Yii2XmlRequestParser"
+    },
+    "require": {
+      "php": ">=5.4.0",
+      "yiisoft/yii2": "2.0.*"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "bobchengbin\\Yii2XmlRequestParser\\": "src/"
+      }
+    }
+}
