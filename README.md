@@ -5,29 +5,32 @@ Yii2 官方只出了JsonRequestParser，但是没有 XmlRequestParser，所以�
 
 ## Install 
 
-add `bobchengbin/Yii2XmlRequestParser` to composer.json
+add `bobchengbin/yii2-xml-request-parser` to composer.json
 
 ```
-composer install
+$ composer install
 ```
 
 OR
 
 ```
-composer update
+$ composer update
 ```
 
 ## Usage
 
-```
+```php
 # file app/config/main.php
 <?php
 
 return [
-    'components'=>
-    [
-	'text/xml' => 'bobchengbin\Yii2XmlRequestParser\XmlRequestParser',
-	'application/xml' => 'bobchengbin\Yii2XmlRequestParser\XmlRequestParser',		
+    'components' => [
+	'request' => [
+	    'parsers' => [
+		'text/xml' => 'bobchengbin\Yii2XmlRequestParser\XmlRequestParser',
+                'application/xml' => 'bobchengbin\Yii2XmlRequestParser\XmlRequestParser',
+	    ],
+        ],
     ],
 ];
 ```
