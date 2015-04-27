@@ -3,20 +3,18 @@ Yii2XmlRequestParser
 
 Yii2 官方只出了JsonRequestParser，但是没有 XmlRequestParser，所以就创建了这么一个库。
 
-[![Build Status](https://travis-ci.org/dcb9/Yii2XmlRequestParser.svg?branch=master)](https://travis-ci.org/dcb9/Yii2XmlRequestParser)
-
 ## Install 
 
-add `bobchengbin/yii2-xml-request-parser` to composer.json
+add `"bobchengbin/yii2-xml-request-parser": "*"` to composer.json's require section
 
 ```
-$ composer install
+$ composer update
 ```
 
 OR
 
 ```
-$ composer update
+$ composer require bobchengbin/yii2-xml-request-parser '*'
 ```
 
 ## Usage
