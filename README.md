@@ -27,8 +27,10 @@ return [
     'components' => [
 	'request' => [
 	    'parsers' => [
-		'text/xml' => 'bobchengbin\Yii2XmlRequestParser\XmlRequestParser',
-                'application/xml' => 'bobchengbin\Yii2XmlRequestParser\XmlRequestParser',
+                'application/xml' => [
+		    'class' => 'bobchengbin\Yii2XmlRequestParser\XmlRequestParser',
+		    'priority' => 'tag', // the default value is 'tag', you can set 'attribute' value
+		],
 	    ],
         ],
     ],

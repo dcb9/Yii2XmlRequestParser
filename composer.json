@@ -18,8 +18,7 @@
       "source": "https://github.com/bobchengbin/Yii2XmlRequestParser"
     },
     "require": {
-      "php": ">=5.4.0",
-      "yiisoft/yii2": "2.0.*"
+      "php": ">=5.4.0"
     },
     "require-dev": {
       "phpunit/phpunit": "3.7.*"
